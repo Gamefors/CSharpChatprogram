@@ -100,6 +100,7 @@ namespace Server
                 {
                     alreadyLoggedIn = true;
                     logHelper.Log(client.name + " is already logged in refusing login.", LogType.Info);
+                    Send(client.socket, "ALREADYLOGGEDIN");
                     clients.Remove(client);
                     client.Disconnect();
                     client.connected = false;
@@ -111,11 +112,13 @@ namespace Server
                 if (mysqlHelper.CheckLoginCredentials(client, password))
                 {
                     logHelper.Log(client.name + " succesfully logged in.", LogType.Info);
+                    Send(client.socket, "SUCCESFULLYLOGGEDIN");
                     mysqlHelper.SetClientLoginStatus(client, true);
                 }
                 else
                 {
                     logHelper.Log(client.name + " tried logging in with wrong credentials.", LogType.Info);
+                    Send(client.socket, "WRONGCREDENTIALS");
                     clients.Remove(client);
                     client.Disconnect();
                     client.connected = false;

@@ -1,0 +1,25 @@
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: hi
+[jan]: hallo
+felix succesfully logged in.
+[felix]: hi
+[felix]: was geht
+[jan]: alles gut be dir
+jan disconnected ungracefully.

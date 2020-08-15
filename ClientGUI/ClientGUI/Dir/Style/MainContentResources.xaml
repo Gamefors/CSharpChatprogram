@@ -1,8 +1,0 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:ViewModel="clr-namespace:ClientGUI.Dir.ViewModel"
-                    xmlns:View="clr-namespace:ClientGUI.Dir.View">
-    <DataTemplate DataType="{x:Type ViewModel:LoginViewModel}">
-        <View:LoginView/>
-    </DataTemplate>
-</ResourceDictionary>

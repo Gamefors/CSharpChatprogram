@@ -4,3 +4,149 @@ Server started.
 Server is starting...
 Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
 Server started.
+Server is starting...
+Connection to mysql database could not be established. Exeption:
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+ ---> System.AggregateException: One or more errors occurred. (Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte. 127.0.0.1:3306)
+ ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte. 127.0.0.1:3306
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.DoMultipleAddressConnectCallback(Object result, MultipleAddressConnectAsyncResult context)
+   at System.Net.Sockets.Socket.MultipleAddressConnectCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw(Exception source)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.TcpClient.<>c.<ConnectAsync>b__28_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout)
+   at MySql.Data.Common.StreamCreator.GetTcpStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.Common.StreamCreator.GetStream(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Server.MysqlHelper.Connect(String ip, String username, String password, String database) in G:\Server\Server\Dir\Utils\MysqlHelper.cs:line 31
+Server started.
+Server is starting...
+Connection to mysql database could not be established.
+Server started.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+[jan]: hi
+[jan]: hallo
+felix succesfully logged in.
+[felix]: hi
+[felix]: hallo
+[jan]: sd
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+felix succesfully logged in.
+[felix]: sd
+[felix]: ds
+[felix]: d
+felix disconnected ungracefully.
+felix succesfully logged in.
+[felix]: sds#
+jan succesfully logged in.
+jan disconnected ungracefully.
+[felix]: ds
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+ disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+[felix]: dsd
+[felix]: ds
+felix disconnected ungracefully.
+felix succesfully logged in.
+[felix]: hi
+[felix]: halo
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: ds#
+felix is already logged in refusing login.
+felix disconnected ungracefully.
+jan disconnected ungracefully.
+felix succesfully logged in.
+jan succesfully logged in.
+[felix]: hi
+[jan]: hallo
+[jan]: nein
+[jan]: s
+[felix]: ds
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+[jan]: ds
+[jan]: ds
+[jan]: 
+[jan]: fd
+[jan]: df
+[jan]: f
+[jan]: d
+[jan]: f
+[jan]: df
+[jan]: ds+
+[jan]: ds
+[jan]: d
+[jan]: sd
+[jan]: s
+[jan]: ds
+[jan]: d
+felix disconnected ungracefully.
+asd tried logging in with wrong credentials.
+asdasd tried logging in with wrong credentials.
+hi tried logging in with wrong credentials.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+felix succesfully logged in.
+[felix]: hi
+[felix]: hall
+jan disconnected ungracefully.
+tete tried logging in with wrong credentials.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+[felix]: odsd
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+[felix]: sds
+jan disconnected ungracefully.
