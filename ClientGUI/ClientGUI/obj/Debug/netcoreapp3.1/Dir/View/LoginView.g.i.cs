@@ -53,7 +53,7 @@ namespace ClientGUI.Dir.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ClientGUI;component/dir/view/loginview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ClientGUI;V1.0.0.0;component/dir/view/loginview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Dir\View\LoginView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

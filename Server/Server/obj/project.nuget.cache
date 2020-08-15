@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h1Bli0uhW7gpgcA6ZfAxM1jWQ2t3gB3L/0VZ53Yx92cD6N37BKNOKYJ1oaCnsiz8SYEwaVvnl95bd2qxRBY9Ww==",
+  "dgSpecHash": "KnWgi+Rk8NO9szVxCOyPJ0uzW2mA5HflqD57xPfhpOpnJDLSl6Hwr20JazvDmZOZouFwi0Hi1Yn5gPMx8CqSLg==",
   "success": true,
-  "projectFilePath": "G:\\Server\\Server\\Server.csproj",
+  "projectFilePath": "G:\\C#Chatpgoram\\Server\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gamef\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\gamef\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

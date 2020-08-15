@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Client\\Client\\Client.csproj": {}
+    "G:\\C#Chatpgoram\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "G:\\Client\\Client\\Client.csproj": {
+    "G:\\C#Chatpgoram\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "G:\\C#Chatpgoram\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "G:\\Client\\Client\\Client.csproj",
+        "projectPath": "G:\\C#Chatpgoram\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\gamef\\.nuget\\packages\\",
-        "outputPath": "G:\\Client\\Client\\obj\\",
+        "outputPath": "G:\\C#Chatpgoram\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gamef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
