@@ -1,0 +1,6 @@
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
