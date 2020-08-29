@@ -1,26 +1,57 @@
-﻿<UserControl x:Class="ClientGUI.Dir.View.ChatView"
+﻿<UserControl x:Name="userControl" x:Class="ClientGUI.Dir.View.ChatView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ClientGUI.Dir.View"
+      xmlns:src="clr-namespace:ClientGUI.Dir.Utils"
       mc:Ignorable="d" 
+      MinHeight="450"
+      MinWidth="800"
       d:DesignHeight="450" d:DesignWidth="800">
 
     <StackPanel Background="#2C2F33">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition MinHeight="25"/>
-            </Grid.RowDefinitions>
-            <!--TODO: calculate textBlock height onWindowResize-->
-            <TextBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" IsReadOnly="True" Background="#2C2F33" Foreground="White" Grid.Row="0" Margin="15" MinHeight="360" MaxHeight="360" Text="{Binding Output}"/>
-           <TextBox Grid.Row="1" Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" Foreground="White" Background="#23272A" FontSize="18" MinHeight="25" Margin="15">
-                <TextBox.InputBindings>
-                    <KeyBinding Key="Enter" Command="{Binding EnterKeyCommand}"/>
-                </TextBox.InputBindings>
-            </TextBox>
+        <Grid MinHeight="450" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="{Binding ActualHeight, ElementName=userControl, Mode=OneWay}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
+                <TextBox src:TextBoxBehaviour.ScrollOnTextChanged="True" FontSize="20" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderThickness="0" ScrollViewer.VerticalScrollBarVisibility="Hidden" IsReadOnly="True" Background="#2C2F33" Foreground="White" Grid.Row="0" Margin="15" MinHeight="360" Text="{Binding Output}"/>
+                <TextBox MaxHeight="25" Grid.Row="1" Text="{Binding Input, UpdateSourceTrigger=PropertyChanged}" Foreground="White" Background="#23272A" FontSize="18" MinHeight="25" Margin="15">
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Enter" Command="{Binding EnterKeyCommand}"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+            </Grid>
+            
+            <StackPanel Margin="15" Background="#424549" Grid.Column="1">
+                <Label FontSize="13" Margin="5 15 0 0" Foreground="White" Content="{Binding UserListOnlineLabel, FallbackValue=Online-0}"/>
 
+                <ItemsControl ItemsSource="{Binding Clients}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="5 5 0 0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Margin="6 4 4 4" Grid.Column="0" Source="/Dir/Data/GMF_Logo_1_Round__Light.png" />
+                                <StackPanel Grid.Column="1">
+                                    <Label FontSize="15" Foreground="{Binding RankColor}"  Content="{Binding username}"/>
+                                    <Label FontSize="10" Foreground="White"  Content="Online"/>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                
+            </StackPanel>
         </Grid>
-        </StackPanel>
+
+    </StackPanel>
 </UserControl>

@@ -1,7 +1,5 @@
 ﻿using ClientGUI.Dir.Utils;
 using System;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
@@ -29,11 +27,11 @@ namespace ClientGUI.Dir.ViewModel
 
 
             this.MainWindowViewModel = MainWindowViewModel;
-            
+
             LoginButtonCommand = new RelayCommand(LoginButtonAction);
 
         }
-        
+
         private void LoginButtonAction(object parameter)
         {
             PasswordBox passwordBox = parameter as PasswordBox;
@@ -63,7 +61,7 @@ namespace ClientGUI.Dir.ViewModel
                         setAlert("Connection to server could not be established.", "Red", Visibility.Visible);
                     }
                 };
-                
+
                 loginEvent += (string result) =>
                 {
                     switch (result)
@@ -74,7 +72,7 @@ namespace ClientGUI.Dir.ViewModel
                         case "SL":
                             setAlert("Logged in succesfully.", "Green", Visibility.Visible);
                             Thread.Sleep(100 * 5);
-                            
+
                             break;
                         case "WC":
                             setAlert("You entered wrong credentials.", "Red", Visibility.Visible);
@@ -93,7 +91,7 @@ namespace ClientGUI.Dir.ViewModel
             AlertForegroundColor = color;
         }
 
-       
+
 
     }
 }

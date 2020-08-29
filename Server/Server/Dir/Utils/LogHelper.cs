@@ -22,7 +22,7 @@ namespace Server
             {
                 Directory.CreateDirectory(loggingPath);
             }
-            //create initial log file.
+            //create initial log file
             loggingPath += DateTime.Today.ToString("d") + ".txt";
             if (!File.Exists(loggingPath))
             {

@@ -23,3 +23,363 @@ felix succesfully logged in.
 [felix]: was geht
 [jan]: alles gut be dir
 jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+sd tried logging in with wrong credentials.
+jan succesfully logged in.
+[jan]: sd
+[jan]: hoi
+[jan]: help
+[jan]: /hlep
+[jan]: /help
+[jan]: sdsd
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: [jan]
+[jan]: [jan]
+[jan]: [jan]
+[jan]: [jan]
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: [jan]
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: [jan]
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+felix succesfully logged in.
+felix disconnected ungracefully.
+jan succesfully logged in.
+[jan]: [jan]
+felix succesfully logged in.
+[felix]: [felix]
+[felix]: [felix]
+[jan]: [jan]
+[jan]: [jan]
+jan disconnected ungracefully.
+[felix]: [felix]
+felix disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sds
+[jan]: dsa
+[jan]: d
+[jan]: saf
+[jan]: 
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sd
+[jan]: das
+[jan]: sdsd
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: hallo
+[jan]: dsad
+[jan]: asdasfsa
+[jan]: fas
+[jan]: f
+[jan]: as
+[jan]: s
+[jan]: ssssssssssssss
+[jan]: 
+[jan]: 
+[jan]: 
+[jan]: 
+[jan]: d
+[jan]: sa
+[jan]: ds
+[jan]: d
+[jan]: sad
+[jan]: asd
+[jan]: a
+[jan]: f
+[jan]: saf
+[jan]: sa
+[jan]: f
+[jan]: f
+[jan]: as
+[jan]: fas
+[jan]: fas
+[jan]: f
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sad
+[jan]: das
+[jan]: d
+[jan]: asd
+[jan]: asd
+[jan]: as
+[jan]: dasdsa
+[jan]: dsa
+[jan]: d
+[jan]: as
+[jan]: das
+[jan]: d
+[jan]: as
+[jan]: d
+[jan]: sa
+[jan]: d
+[jan]: as
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: df
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: d
+jan disconnected ungracefully.
+jan succesfully logged in.
+[jan]: d
+[jan]: d
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: f
+[jan]: f
+[jan]: df
+[jan]: df
+[jan]: d
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: fd
+[jan]: f
+[jan]: d
+[jan]: fd
+[jan]: fd
+[jan]: fd
+[jan]: f
+[jan]: df
+[jan]: d
+[jan]: f
+jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+jan is already logged in refusing login.
+felix succesfully logged in.
+[felix]: hi
+[jan]: gallo
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+[jan]: sd
+[felix]: ds
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan tried logging in with wrong credentials.
+jan tried logging in with wrong credentials.
+JAN tried logging in with wrong credentials.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+[jan]: s
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+[jan]: s
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sd
+[jan]: sd
+felix succesfully logged in.
+[jan]: sd
+[jan]: sd
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sdsd#
+[jan]: dsd
+[jan]: s
+[jan]: ds
+[jan]: d
+[jan]: 
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+[jan]: sd
+felix succesfully logged in.
+[jan]: sd
+[felix]: sdsd
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+jan disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+jan disconnected ungracefully.
+felix disconnected ungracefully.
+jan succesfully logged in.
+felix succesfully logged in.
+[jan]: s
+[jan]: s
+[jan]: ds
+[felix]: ds
+jan disconnected ungracefully.
+Server is starting...
+Connection to mysql database could not be established.
+Server started.
+Server is starting...
+Connection to mysql database established. Mysql Server version: 5.5.5-10.5.4-MariaDB-1:10.5.4+maria~focal
+Server started.
+jan succesfully logged in.
+felix succesfully logged in.
+[felix]: sds
+[jan]: sdsd
+[jan]: vdf
+[felix]: dfd
+felix disconnected ungracefully.
+jan disconnected ungracefully.

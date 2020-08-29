@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClientGUI"
         mc:Ignorable="d"
-        MinWidth="800"
+        MinWidth="850"
         MinHeight="500"
         Background="#23272A"
-        Title="ClientGUI" Height="500" Width="800">
+        Title="ClientGUI" Height="500" Width="850">
 
     <Window.Resources>
         <ResourceDictionary>

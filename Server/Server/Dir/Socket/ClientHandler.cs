@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Sockets;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Server
@@ -112,7 +113,18 @@ namespace Server
                 if (mysqlHelper.CheckLoginCredentials(client, password))
                 {
                     logHelper.Log(client.name + " succesfully logged in.", LogType.Info);
-                    Send(client.socket, "SUCCESFULLYLOGGEDIN");
+                    Send(client.socket, "SUCCESFULLYLOGGEDIN:" + mysqlHelper.getClientRank(client));
+                    string clientsString = "";
+                    foreach (string onlineClient in mysqlHelper.GetOnlineClients())
+                    {
+                        clientsString = clientsString + onlineClient;
+                         
+                    }
+                    foreach (Client clientOnline in clients)
+                    {
+                        Send(clientOnline.socket, "ADDCLIENT:" + clientsString);
+                    }
+                    
                     mysqlHelper.SetClientLoginStatus(client, true);
                 }
                 else

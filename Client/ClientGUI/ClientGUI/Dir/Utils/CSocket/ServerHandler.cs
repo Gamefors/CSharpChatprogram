@@ -1,7 +1,9 @@
 ﻿using ClientGUI.Dir.Objects;
 using ClientGUI.Dir.ViewModel;
 using System;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -10,6 +12,8 @@ namespace ClientGUI.Dir.Utils.CSocket
 {
     class ServerHandler
     {
+        ClientObject state;
+        public ObservableCollection<ClientObject> clients { get; set; }
         private MainWindowViewModel MainWindowViewModel;
         private ChatViewModel chatViewModel;
         private static Thread receiveThread;
@@ -20,6 +24,7 @@ namespace ClientGUI.Dir.Utils.CSocket
         private bool running = true;
         public ServerHandler(Config config_, Socket client_, Action<string> loginEvent_, Action<string> PressEnterEvent_, MainWindowViewModel MainWindowViewModel_)
         {
+            clients = new ObservableCollection<ClientObject>();
             MainWindowViewModel = MainWindowViewModel_;
             loginEvent = loginEvent_;
             PressEnterEvent = PressEnterEvent_;
@@ -34,10 +39,10 @@ namespace ClientGUI.Dir.Utils.CSocket
             {
                 HandleInput(msg);
             };
-            chatViewModel = new ChatViewModel(PressEnterEvent);
+            chatViewModel = new ChatViewModel(PressEnterEvent, config, this);
             while (running)
             {
-                
+
             }
         }
 
@@ -56,7 +61,10 @@ namespace ClientGUI.Dir.Utils.CSocket
 
         public void Receive()
         {
-            ClientObject state = new ClientObject();
+            state = new ClientObject();
+            state.username = config.loginName;
+            state.myself = true;
+            clients.Add(state);
             state.workSocket = client;
             try
             {
@@ -90,19 +98,60 @@ namespace ClientGUI.Dir.Utils.CSocket
             if (response.Contains("WRONGCREDENTIALS"))
             {
                 loginEvent("WC");
-            }else if (response.Contains("ALREADYLOGGEDIN"))
+            }
+            else if (response.Contains("ALREADYLOGGEDIN"))
             {
                 loginEvent("AL");
-            } else if (response.Contains("SUCCESFULLYLOGGEDIN"))
+            }
+            else if (response.Contains("SUCCESFULLYLOGGEDIN"))
             {
+                string[] res = response.Split(":");
                 loginEvent("SL");
-                MainWindowViewModel.setActiveViewMode(chatViewModel); 
+                state.rank = res[1];
+                MainWindowViewModel.setActiveViewMode(chatViewModel);
+            }
+            else if (response.Contains("ADDCLIENT"))
+            {
+                string onlineClientsString = response.Split(":")[1];
+                string[] onlineClients = onlineClientsString.Split(",");
+                onlineClients = onlineClients.SkipLast(1).ToArray();
+                foreach (string onlineClient in onlineClients)
+                {
+
+                    string[] onlineClientAtt = onlineClient.Split(";");
+
+                    if (!onlineClientAtt[0].Equals(config.loginName))
+                    {
+
+                        bool add = true;
+                        foreach (ClientObject client in clients)
+                        {
+                            if (client.username.Equals(onlineClientAtt[0]))
+                            {
+                                add = false;
+                            }
+                        }
+
+                        if (add)
+                        {
+                            ClientObject newClientObject = new ClientObject();
+                            newClientObject.username = onlineClientAtt[0];
+                            newClientObject.rank = onlineClientAtt[1];
+                           // clients.Add(newClientObject);
+                            App.Current.Dispatcher.Invoke((System.Action)delegate
+                            {
+                                clients.Add(newClientObject);
+                            });
+                        }
+                    }
+
+                }
             }
             else
             {
                 chatViewModel.writeOutput(response);
             }
-            
+
         }
 
         public void Send(Socket client, String data)

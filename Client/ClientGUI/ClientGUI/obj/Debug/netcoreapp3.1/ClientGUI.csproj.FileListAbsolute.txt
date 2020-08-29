@@ -50,7 +50,6 @@ G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\bin\Debug\netcoreapp3.1\ClientGUI.run
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\bin\Debug\netcoreapp3.1\ClientGUI.dll
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\bin\Debug\netcoreapp3.1\ClientGUI.pdb
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\bin\Debug\netcoreapp3.1\Client.dll
-G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.csprojAssemblyReference.cache
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\Dir\View\ChatView.g.cs
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\Dir\View\LoginView.g.cs
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\MainWindow.g.cs
@@ -71,3 +70,4 @@ G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.csp
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.dll
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.pdb
 G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.genruntimeconfig.cache
+G:\C#Chatpgoram\Client\ClientGUI\ClientGUI\obj\Debug\netcoreapp3.1\ClientGUI.csprojAssemblyReference.cache
